@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Judul tab browser (bisa Anda ubah sesuai keinginan) -->
+    <title>Aplikasi Penilian Hasil Ujian</title>
+    
+    <!-- Memuat logo favicon di tab browser -->
+    <link rel="icon" type="image/png" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg61UNM8sYlGc-IudNJ_fxvt7aD5jbXbuwPozKx3Zi66HuyjJMhDZoVyNuc6Csnz6nsVYnbY06iqFKVL1XpbCgRQ2EXlIdxSidXrekewtlKXtC7sIhljmTux47rhbzbSgY94cQjdCUQclY4kEOgl0BHvWkoagI1k1KbDZgGlgOFi4E0nWmOmhpotC1H3Y/w199-h200/Gemini_Generated_Image_hc2aa6hc2aa6hc2a-removebg-preview.png">
+    
+    <style>
+        /* Menghilangkan margin bawaan browser dan membuat halaman penuh */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Mencegah munculnya scrollbar ganda */
+            background-color: #ffffff;
+        }
+        
+        /* Membuat iframe memenuhi 100% layar tanpa garis tepi */
+        .full-screen-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menampilkan Web App Google Script Anda -->
+    <iframe 
+        class="full-screen-iframe" 
+        src="https://script.google.com/macros/s/AKfycbzNy3HzT3UktXNmqNyR0sQyJgAfUc6otgv8awFCCYOKHYLNBH9NDX6T1vX9DmkmKNl9Ig/exec" 
+        title="Aplikasi Saya"
+        allowfullscreen="true">
+    </iframe>
+
+</body>
+</html>
